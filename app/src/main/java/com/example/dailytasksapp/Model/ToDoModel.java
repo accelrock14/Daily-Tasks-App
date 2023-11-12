@@ -3,7 +3,7 @@ package com.example.dailytasksapp.Model;
 public class ToDoModel {
 
     private String task;
-    private int id, status;
+    private int id , status;
 
     public String getTask() {
         return task;
@@ -29,3 +29,4 @@ public class ToDoModel {
         this.status = status;
     }
 }
+
